@@ -1,5 +1,19 @@
-## Coding :
 
+## Coding :
+/**Builing a order delivering App
+* Header
+  -Logo 
+  -Navigation Panel
+* Body
+  - Search
+  - Restaurant Container
+    - RestaurantCard
+* Footer
+ - copyright
+ -links
+ -address
+ -contact details
+**/
 - Set up all the `tools in your laptop`
   - `VS Code`
   - `Chrome`
