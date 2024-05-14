@@ -4,6 +4,7 @@
   "description": "- Set up all the `tools in your laptop`\r   - `VS Code`\r   - `Chrome`\r   - `Extensions of Chrome`\r - Create a `new Git repo`\r - Build your `first Hello World` program using,\r   - Using `just HTML`\r   - Using `JS to manipulate the DOM`\r   - Using `React`\r     - `use CDN Links`\r     - `Create an Element`\r     - `Create nested React Elements`\r     - `Use root.render`",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
