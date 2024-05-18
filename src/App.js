@@ -16,7 +16,7 @@ const Layout = ()=>{
 const appRouter =  createBrowserRouter([{
   path:'/',
   element:<Layout />
-  // error:<Error />
+  
 },
 {
   path:'/about',
