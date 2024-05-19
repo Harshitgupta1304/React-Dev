@@ -13,20 +13,29 @@ const Layout = ()=>{
     <Body />
   </div>)
 }
-const appRouter =  createBrowserRouter([{
-  path:'/',
-  element:<Layout />
-  
-},
-{
-  path:'/about',
-  element:<About />
-  
-},
-{
-  path:'/contact',
-  element:<Contact />
-},
+const appRouter =  createBrowserRouter([ {
+    path: '/',
+    element: <AppLayout />,
+    children: [
+      {
+        path: '/',
+        element: <Body />,
+      },
+      {
+        path: '/about',
+        element: <About />,
+      },
+      {
+        path: '/contact',
+        element: <Contact />,
+      },
+      {
+        path: '/restaurants/:resId',
+        element: <RestaurantMenu />,
+      },
+    ],
+    errorElement: <Error />,
+  },
 ])
   const root = ReactDOM.createRoot(document.getElementById('root')); // It's the job of ReactDOM to create root i.e, heading in this case, bcz root is a dom element which is rendered to be on browser. This root is the place where all React code will run.
   
